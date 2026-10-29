@@ -6,6 +6,7 @@ Executes the full quantitative pipeline:
 3. Monte Carlo 10,000-Trial Stress Simulation
 4. Publication Visual Chart Rendering
 5. Official 8-Page Submission PDF Report Compilation
+6. Official 10-Slide Submission Presentation Deck PDF Compilation
 """
 
 import os
@@ -47,9 +48,13 @@ def main():
     # 5. Compile Final 8-Page PDF Report
     run_step("5. Official 8-Page Submission PDF Compilation", [os.path.join(base_dir, "scripts", "generate_report_pdf.py")])
     
+    # 6. Compile Final 10-Slide Presentation Deck PDF
+    run_step("6. Official 10-Slide Presentation Deck PDF Compilation", [os.path.join(base_dir, "scripts", "generate_presentation_pdf.py")])
+    
     print("\n" + "#"*80)
     print("ALL DELIVERABLES SUCCESSFULLY GENERATED AND 100% REPRODUCIBLE!")
     print(f"Final Report PDF : {os.path.join(base_dir, 'output', 'CAMS_IC_Memo_and_Research_Report.pdf')}")
+    print(f"Presentation PDF : {os.path.join(base_dir, 'output', 'CAMS_IC_Presentation_Deck.pdf')}")
     print(f"Excel Model      : {os.path.join(base_dir, 'models', 'valuation_cams_model.xlsx')}")
     print("#"*80)
 
