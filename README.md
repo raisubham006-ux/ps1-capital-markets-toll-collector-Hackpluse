@@ -12,13 +12,7 @@
 
 ---
 
-## 🎥 Walkthrough Video & Platform Submission Links
-* **Downloadable Walkthrough Video URL:** [https://youtu.be/zetheta-ps1-cams-walkthrough](https://youtu.be/zetheta-ps1-cams-walkthrough) *(Listed on Page 1 of Report & Slide 1 of Deck)*
-* **Primary Project Document (8-Page PDF):** [`output/CAMS_IC_Memo_and_Research_Report.pdf`](output/CAMS_IC_Memo_and_Research_Report.pdf) *(100% Selectable text, 0.65 MB < 20 MB ceiling)*
-* **Official Presentation Deck (10-Slide PDF):** [`output/CAMS_IC_Presentation_Deck.pdf`](output/CAMS_IC_Presentation_Deck.pdf) *(100% Selectable text, Landscape, 0.46 MB)*
-* **Interactive Financial Model Workbook:** [`models/valuation_cams_model.xlsx`](models/valuation_cams_model.xlsx) *(6 formatted tabs with dynamic formulas)*
 
----
 
 ## Executive Summary: The Fiduciary Mandate
 
