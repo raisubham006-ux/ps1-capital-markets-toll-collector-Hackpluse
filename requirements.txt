@@ -1,0 +1,9 @@
+# Quantitative Research & Modeling Dependencies
+# Track 1 (PS1): Equity Research & Consulting - Toll Collector of India's Capital Markets
+numpy>=1.26.0
+pandas>=2.0.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+openpyxl>=3.1.2
+reportlab>=4.0.0
+pypdf>=4.0.0
